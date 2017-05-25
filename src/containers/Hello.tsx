@@ -16,5 +16,4 @@ export function mapDispatchToProps(dispatch: Dispatch<actions.EnthusiasmAction>)
         onDecrement: () => dispatch(actions.decrementEnthusiasm()),
     }
 }
-
 export default connect(mapStateToProps, mapDispatchToProps)(Hello);
